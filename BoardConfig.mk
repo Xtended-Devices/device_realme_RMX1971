@@ -23,3 +23,7 @@ BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flag 2
 
 # Inherit from the proprietary version
 -include vendor/realme/RMX1971/BoardConfigVendor.mk
+
+# Allow Build with missing Required Modules and Dup Rules
+BUILD_BROKEN_MISSING_REQUIRED_MODULES := true
+BUILD_BROKEN_DUP_RULES := true
