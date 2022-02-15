@@ -35,3 +35,6 @@ XTENDED_BUILD_TYPE := OFFICIAL
 
 # Gapps
 WITH_GAPPS := true
+
+# Processor Model
+PROCESSOR_MODEL := SD712
